@@ -62,7 +62,7 @@ The following arguments are optional:
 * `bytes` - (Optional) Image file, in Base64-encoded binary.
 * `category` - (Required) Category that the image corresponds to. See [AWS documentation](https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_AssetType.html#CognitoUserPools-Type-AssetType-Category) for valid values.
 * `color_mode` - (Required) Display-mode target of the asset. Valid values: `LIGHT`, `DARK`, `DYNAMIC`.
-* `extensions` - (Required) File type of the image file. See [AWS documentation](https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_AssetType.html#CognitoUserPools-Type-AssetType-Extension) for valid values.
+* `extension` - (Required) File type of the image file. See [AWS documentation](https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_AssetType.html#CognitoUserPools-Type-AssetType-Extension) for valid values.
 * `resource_id` - (Optional) Asset ID.
 
 ## Attribute Reference
